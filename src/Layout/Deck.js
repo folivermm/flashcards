@@ -26,7 +26,7 @@ const Deck = ({ fetchDecks }) => {
 
     useEffect(() => {
         getDeck();
-    }, []);
+    }, [deckId]);
 
     if (deck.name) {
         return (

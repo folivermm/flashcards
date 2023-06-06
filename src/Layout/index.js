@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import DeckEntry from "./DeckEntry";
+import DeckSummary from "./DeckSummary";
 import { listDecks } from "../utils/api/index";
 import { Switch, Route, Link } from "react-router-dom";
 import CreateDeck from "./CreateDeck";
@@ -28,7 +28,7 @@ function Layout() {
               <button>Create Deck</button>
             </Link>
             {decks.map((deck) => (
-              <DeckEntry key={deck.id} deck={deck} fetchDecks={fetchDecks} />
+              <DeckSummary key={deck.id} deck={deck} fetchDecks={fetchDecks} />
             ))}
           </Route>
 

@@ -35,7 +35,7 @@ const Study = () => {
 
     useEffect(() => {
         fetchDeck();
-    }, []);
+    }, [deckId]);
 
     if (deck.cards) {
         return (

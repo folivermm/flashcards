@@ -2,7 +2,7 @@ import React from "react";
 import { deleteDeck } from "../utils/api/index";
 import { Link } from "react-router-dom";
 
-const DeckEntry = ({ deck, fetchDecks, cardCount },) => {
+const DeckSummary = ({ deck, fetchDecks, cardCount },) => {
     const { id, name, description } = deck;
 
     const handleDelete = async () => {
@@ -27,4 +27,4 @@ const DeckEntry = ({ deck, fetchDecks, cardCount },) => {
     );
 };
 
-export default DeckEntry;
+export default DeckSummary;

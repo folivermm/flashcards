@@ -50,7 +50,7 @@ const CardForm = ({ type, fetchDecks }) => {
 
     useEffect(() => {
         getDeck();
-    }, []);
+    }, [deckId]);
 
     return (
         <React.Fragment>

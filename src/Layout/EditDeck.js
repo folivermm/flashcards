@@ -46,7 +46,7 @@ const EditDeck = ({ fetchDecks }) => {
 
     useEffect(() => {
         getDeck();
-    }, []);
+    }, [deckId]);
 
     if (deck.name) {
         return (
