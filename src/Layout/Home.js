@@ -28,9 +28,13 @@ const Home = () => {
                     ))}
                 </Route>
 
-                <Route path="/decks/new"><CreateDeck deckCount={decks.length} fetchDecks={fetchDecks} /></Route>
+                <Route path="/decks/new">
+                    <CreateDeck deckCount={decks.length} fetchDecks={fetchDecks} />
+                </Route>
 
-                <Route path="/decks/:deckId"><Decks decks={decks} fetchDecks={fetchDecks} /></Route>
+                <Route path="/decks/:deckId">
+                    <Decks decks={decks} fetchDecks={fetchDecks} />
+                </Route>
 
             </Switch>
         </React.Fragment>
