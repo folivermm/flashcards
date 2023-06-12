@@ -19,7 +19,7 @@ const Decks = ({ fetchDecks }) => {
         // Each Route corresponds to a specific path under the base path of the Decks component.
         <Switch>
             {/* First Route has an exact prop set to true and matches the base path exactly
-             (${path}). It renders the Deck component and passes the fetchDecks prop to it. */}
+             It renders the Deck component and passes the fetchDecks prop to it. */}
             <Route exact={true} path={`${path}`}>
                 <Deck fetchDecks={fetchDecks} />
             </Route>
