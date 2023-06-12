@@ -1,6 +1,10 @@
+//import react and necessary hooks
 import React, { useEffect, useState } from "react";
+// Import necessary components from react-router-dom
 import { Link, useRouteMatch, useParams, useHistory } from "react-router-dom";
+//import API functions
 import { deleteDeck, readDeck } from "../utils/api";
+//import custom components
 import CardEntry from "./CardEntry";
 
 //use prop to get the list of decks
