@@ -1,8 +1,8 @@
-//import react and necessary hooks
+// import react and necessary hooks
 import React, { useState } from "react";
 // Import necessary components from react-router-dom
 import { Link, useHistory } from "react-router-dom";
-//import API functions 
+// import API functions 
 import { createDeck } from "../utils/api/index";
 
 // EditDeck component accepts the deckCount and fetchDecks props.
