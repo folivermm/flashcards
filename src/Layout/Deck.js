@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { Link, useRouteMatch, useParams, useHistory } from "react-router-dom";
 //import API functions
 import { deleteDeck, readDeck } from "../utils/api";
-//import custom components
+//import custom component
 import CardEntry from "./CardEntry";
 
 //use prop to get the list of decks

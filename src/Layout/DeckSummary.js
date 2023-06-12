@@ -4,7 +4,7 @@ import { deleteDeck } from "../utils/api/index";
 // Link component imported to create links between different routes 
 import { Link } from "react-router-dom";
 
-// component has 3 props: 'deck' that contains the info, 
+// DeckSummary component has 3 props: 'deck' that contains the info, 
 // 'fetchDecks' function fetches decks, and 'cardCount' card counnt in deck
 const DeckSummary = ({ deck, fetchDecks, cardCount },) => {
     // id, name, and description props are extracted 
