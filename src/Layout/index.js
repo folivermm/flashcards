@@ -14,7 +14,7 @@ import NotFound from "./NotFound";
 function Layout() {
   // deck state initialized using useState hook. 
   // represents the list of decks. 
-  // initially set to an empty array.
+  // initialized set to an empty array.
   const [decks, setDecks] = useState([]);
 
   //fetch the list of decks using the listDecks function from ../utils/api/index
