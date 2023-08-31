@@ -32,25 +32,25 @@ Flash Cards showcases proficiency in the following areas:
 
 The application features the following screens and their corresponding paths:
 
-   - Home: /
+   - **Home: /**
         Displays a list of available decks with options to create, study, view, or delete a deck.
 
-   - Study: /decks/:deckId/study
+   - **Study: /decks/:deckId/study**
         Allows the user to study the flashcards from a specified deck.
 
-   - Create Deck: /decks/new
+   - **Create Deck: /decks/new**
         Enables the user to create a new deck.
 
-   - Deck: /decks/:deckId
+   - **Deck: /decks/:deckId**
         Presents detailed information about a specific deck with options to edit or add cards, navigate to the study screen, or delete the deck.
 
-   - Edit Deck: /decks/:deckId/edit
+   - **Edit Deck: /decks/:deckId/edit**
         Lets the user modify information on an existing deck.
 
-   - Add Card: /decks/:deckId/cards/new
+   - **Add Card: /decks/:deckId/cards/new**
         Permits the user to add a new card to an existing deck.
 
-   - Edit Card: /decks/:deckId/cards/:cardId/edit
+   - **Edit Card: /decks/:deckId/cards/:cardId/edit**
         Allows the user to modify information on an existing card within a deck.
 
 #### Acknowledgments
